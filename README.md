@@ -12,6 +12,6 @@ The script will include the following elements:
 6. The script will add all new articles to the Lab's shared excel file, in order to enable all other lab-memebrs to be up to date as well.
 7. The script will be configured to run every thursday morning, in order to supply an interesting reading material for the weekend :)
 
-additional optional features-
+Additional optional features:
 1. GUI for setting up the keywords preferances per user. 
 2. Updates of top priorities articles sent to the lab Slack 'Jornal club' channel.
