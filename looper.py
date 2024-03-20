@@ -34,6 +34,7 @@ def main(db_table_location = 'data/looper_db.csv'):
         reading_list = looper_utils.generate_reading_list(article_records, chosen_reasearch_subjects)
 
         message_text = looper_utils.assemble_message_text(reading_list, current_name)
+        
         print(message_text)
 
     #   send user an e-mail with the publication list and some text.
