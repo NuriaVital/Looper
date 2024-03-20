@@ -1,2 +1,3 @@
 __pycache__
 data/looper_db.csv
+.pytest_cache
