@@ -2,16 +2,16 @@
 By [Nuria Vital](https://nuriavital.github.io/)
 
 Looper is a script that keeps you in the loop of your area of research. 
-The script will assist my lab members to keep track on recent updates in the cancer proteomics field, by sending them a weekly e-mail with relevant new articles, based on thier pre-defiend preferences keywords. 
+The script will assist your lab members to keep track on recent updates in your field of research, by sending them a weekly e-mail with relevant new articles, based on thier pre-defiend preferences keywords. 
 
-The script will include the following elements:
-1. Each user will define a set of keywords of interest (i.e 'Proteomics', 'Cancer', 'Ovarian Cancer', 'mass-spectrometry' etc.) 
-2. The set of users and their interest keywords will be stored in an Excel file.
-4. The script will use Entrez package to inquire the PubMed database and fetch relevant new articles per user.
-5. The script will send an E-mail to every user with their own list of articles of interest.
-6. The script will add all new articles to the Lab's shared excel file, in order to enable all other lab-memebrs to be up to date as well.
-7. The script will be configured to run every thursday morning, in order to supply an interesting reading material for the weekend :)
+The program is build out of two companents:
+  - A GUI app for generating a database of usernames and their research subjects of interset.
+  - A script based on Entrez that searches the Pubmed database and collects articles to fulfil the users' reading wishlist. 
 
-Additional optional features:
-1. GUI for setting up the keywords preferances per user. 
-2. Updates of top priorities articles sent to the lab Slack 'Jornal club' channel.
+Do the following to run the script:
+1. Set the enviroment by installing biopython - 'pip install biopython' or 'pip install -r requirments.txt'
+2. Running GUI - run the script by running  'python .\GUI_db_updater.py' at the root directory. 
+3. Generate the input file database by- inviting you peers to fill their subjects of interest using the GUI script, this will create a csv file with their names and reading preferences.
+4. Running Looper - run the script by running  'python .\looper.py' at the root directory.
+5. Running tests - by typing 'pytest' at the root dierctory.
+6. The output result of Looper is designed as an E-mail body text and reading list that was intended to be sent by e-mmail, however, it was too combersome to convience gmail to cooporate with python.  
