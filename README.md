@@ -14,4 +14,4 @@ Do the following to run the script:
 3. Generate the input file database by- inviting you peers to fill their subjects of interest using the GUI script, this will create a csv file with their names and reading preferences.
 4. Running Looper - run the script by running  'python .\looper.py' at the root directory.
 5. Running tests - by typing 'pytest' at the root dierctory.
-6. The output result of Looper is designed as an E-mail body text and reading list that was intended to be sent by e-mmail, however, it was too combersome to convience gmail to cooporate with python.  
+6. The output result of Looper is designed as an E-mail body text and reading list that was intended to be sent by e-mail, however, it was too combersome to convience gmail to cooporate with python.  
